@@ -50,7 +50,7 @@ for year, url in urls.items():
         if table:
             # Loop through each row of the table to extract player statistics
             rows = table.find_all('tr')[1:]  # Skip the header row
-            game_modes = ['General', 'Search and Destroy', 'Hardpoint', 'Control']  # Example modes, adjust as necessary
+            game_modes = ['Overall', 'Search and Destroy', 'Hardpoint', 'Control']  # Example modes, adjust as necessary
             
             # Loop through different game modes (modify this list based on the actual modes you want to extract)
             for mode in game_modes:
